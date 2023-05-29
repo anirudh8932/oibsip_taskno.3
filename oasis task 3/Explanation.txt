@@ -1,0 +1,19 @@
+This program simulates an ATM interface that provides the user with several options to manage their account. The user can choose to withdraw money, deposit money, check their balance, transfer money, or view their transaction history.
+
+Upon execution, the program calls the transaction() method which displays a menu of options to the user. The user can then select an option by entering the corresponding number.
+
+If the user selects the Withdraw option, they are prompted to enter the amount they wish to withdraw. The program checks if the user has sufficient funds and if so, updates their balance and adds a record of the transaction to the transactions ArrayList.
+
+If the user selects the Deposit option, they are prompted to enter the amount they wish to deposit. The program then updates their balance and adds a record of the transaction to the transactions ArrayList.
+
+If the user selects the Balance option, the program displays their current balance.
+
+If the user selects the Transfer option, they are prompted to enter the amount they wish to transfer. The program checks if the user has sufficient funds and if so, updates their balance and adds a record of the transaction to the transactions ArrayList.
+
+If the user selects the Transaction History option, the program displays their transaction history by iterating through the transactions ArrayList and printing each transaction.
+
+If the user selects the Quit option, the program exits.
+
+After each operation, the user is asked if they want to perform another transaction. If they choose to do so, the transaction() method is called again. Otherwise, the program exits.
+
+This Java program provides a simple yet functional ATM interface that allows users to manage their account and perform various operations. It is well-structured and easy to understand, making it a great starting point for anyone looking to develop similar applications.
